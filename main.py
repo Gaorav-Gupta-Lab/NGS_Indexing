@@ -116,7 +116,11 @@ def build_index(index_name):
 
 def main():
     num_libraries = 5
+    input_folder = output_folder = "output"
+    project_name = ""
+    previous_output_file = ""
     index_name = "trueseq"
+
     sample_index_dict, i5_keys, i7_keys = build_index(index_name)
     all_indices = []
 

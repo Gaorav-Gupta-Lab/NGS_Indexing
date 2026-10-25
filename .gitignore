@@ -8,6 +8,8 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.venv
+.idea
 build/
 develop-eggs/
 dist/
@@ -152,7 +154,6 @@ activemq-data/
 # Environments
 .env
 .envrc
-.venv
 env/
 venv/
 ENV/
